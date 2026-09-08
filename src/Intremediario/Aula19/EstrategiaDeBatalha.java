@@ -1,4 +1,4 @@
-package Intremediario.Aula13a15;
+package Intremediario.Aula19;
 
 public interface EstrategiaDeBatalha {
 
@@ -7,5 +7,4 @@ public interface EstrategiaDeBatalha {
     void inteligenciaDeCombate();
 
     void inteligenciaDeCombate(int qi);
-
 }

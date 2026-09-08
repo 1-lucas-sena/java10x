@@ -1,4 +1,4 @@
-package Intremediario.Aula13a15;
+package Intremediario.Aula13a18;
 
 public class Uzumaki extends Ninja {
 
@@ -9,4 +9,14 @@ public class Uzumaki extends Ninja {
     public void estrategiaDeBatalhaNinja() {
         System.out.println("Aproveitar a quantidade de chakara e vencer no cansaço.");
     }
+
+    @Override
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
+    }
+
+    //@Override   Esta protegido por ser um metodo final
+    //public void tacarKunai(){
+    //    System.out.println("Sou um método da classe FILHA!!!");
+   // }
 }

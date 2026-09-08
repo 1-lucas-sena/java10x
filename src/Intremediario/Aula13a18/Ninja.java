@@ -1,4 +1,4 @@
-package Intremediario.Aula13a15;
+package Intremediario.Aula13a18;
 
 public abstract class Ninja implements EstrategiaDeBatalha {
 
@@ -9,6 +9,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     int idade;
     int numeroDeMissoesConcluidas;
     RankNinja rank;
+    final double altura = 1.80;
 
 
 
@@ -20,6 +21,11 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     public Ninja(){
 
     }
+
+    final void tacarKunai(){
+        System.out.println("Sou um método da classe MAE!!!");
+    }
+
     public Ninja(String nome, String aldeia, int idade) {
         this.nome = nome;
         this.aldeia = aldeia;
