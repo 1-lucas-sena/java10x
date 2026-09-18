@@ -1,4 +1,4 @@
-package Intremediario.Aula26a29;
+package Intremediario.Aula26a37;
 
 public record NinjaRecord(String nome, String email, int telefone) {
 
